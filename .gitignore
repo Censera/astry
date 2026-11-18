@@ -1,4 +1,3 @@
-target/
-tests/bin/
-doc/
-todo/
+/target/
+/doc/
+/todo/
