@@ -1,6 +1,6 @@
 [package]
 name = "astry"
-version = "0.26.0" # version.year.patch
+version = "0.0.1"
 edition = "2024"
 
 authors = ["Censera <censera@proton.me>"]
