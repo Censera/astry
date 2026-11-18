@@ -1,14 +1,16 @@
-[lints.clippy]
-
 [package]
 name = "astry"
-version = "26.8.0"
+version = "0.26.0" # version.year.patch
 edition = "2024"
+
+authors = ["Censera <censera@proton.me>"]
 description = "astry the programming language"
 repository = "https://github.com/Censera/astry"
+
+license-file = "LICENSE"
 readme = "README.md"
-license = "Apache-License-2.0"
-keywords = ["compiler", "language", "llvm"]
+
+keywords = ["compiler", "language"]
 categories = ["command-line-utilities", "development-tools::compilers"]
 
 [[bin]]
@@ -16,7 +18,6 @@ name = "astry"
 path = "src/entry/main.rs"
 
 [dependencies]
-an-inkwell = "26"
 
 [profile.release]
 opt-level = "z"

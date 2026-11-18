@@ -1,3 +1,4 @@
 target/
 tests/bin/
-*.lock
+doc/
+todo/
