@@ -1,3 +1,0 @@
-[env]
-LLVM_SYS_no_polly = "1"
-LLVM_SYS_no_ffi_libs = "1"
